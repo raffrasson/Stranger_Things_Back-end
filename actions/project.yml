@@ -7,4 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1.4.4
         with:
+        # foi usada a referência: https://github.com/actions/setup-node
           node-version: 12
